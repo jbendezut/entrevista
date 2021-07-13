@@ -28,6 +28,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/03657da812.js" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.js"></script>
     <script>
         AOS.init();
 </script>

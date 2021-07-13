@@ -11,10 +11,11 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 300;
 }
 .contenedor{
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
     overflow: hidden;
+  /*  background-image: linear-gradient(to top, #042041 20%, #8c5aad 100%);*/
+    
 }
 .contenedor1{
     width: 90%;
@@ -36,13 +37,15 @@ header{
 nav{
     width: 100%;
     height: 80px;
-    background: rgb(0, 0, 0);
+    background-color: #042041;
+    background-image: linear-gradient(-20deg,#4f006e 5%, #042041  100%);
     border-bottom: 1px solid transparent;
-    box-shadow: 1px 2px 5px 0 rgb(201, 4, 102 );
+    box-shadow: 1px 2px 5px 0 rgb(203, 247, 255);
     transition: ease-in-out 0.5s;
     position: fixed;
     top: 0;
     z-index: 100;
+    
 }
 .nav{
     display: flex;
@@ -53,8 +56,7 @@ nav{
     padding: 0 40px;
 }
 .nav .logo{
-    height: 90px;
-    padding-top: 10px;
+    height: 80px;
 }
 .nav .logo img{
     height: 100%;
@@ -68,6 +70,7 @@ nav{
     color:white;
     text-decoration: none;
     margin-left: 20px;
+    font-family:  Helvetica;
 }
 .nav .enlaces-header a:hover{
     color: #E10882;
@@ -93,10 +96,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .contenido-header>img{
     width: 500px;
     animation: ease-in animat 1s;
+    margin-right:50px;
 }
 @keyframes animat{
     0%{
@@ -108,11 +113,13 @@ nav{
 }
 .textos-header{
     margin:  0 0 0 20px;
+    margin-left: 50px;
+    color: #042041;
 }
 .contenido-header p{
     font-weight: 100;
     margin-top: 14px;
-    color: #5d6678;
+    color: #444444;
     padding: 50px 0;
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
@@ -121,9 +128,9 @@ nav{
     margin-top: 28px 0 0 0;
     width: 160px;
     display: inline-block;
-    background: #a70458;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #cf046d);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fa0505, #af055d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ff0101;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #ff371d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff371d, #750101); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     text-align: center;
     color: white;
